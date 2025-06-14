@@ -1,0 +1,95 @@
+.history-root {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+.history-root h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2a5dba;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.history-root h2::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #2a5dba;
+  border-radius: 2px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #f7fafd;
+}
+
+.table th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #2a5dba;
+  border-bottom: 2px solid #e3e3e3;
+  font-size: 16px;
+}
+
+.table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 15px;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.table tbody tr:hover {
+  background-color: #f7fafd;
+}
+
+.income-row td {
+  color: #1ca97c;
+}
+
+.expense-row td {
+  color: #e05a3c;
+}
+
+/* Style specifically for the amount column */
+.table td:nth-child(4) {
+  font-weight: 600;
+}
+
+.income-row td:nth-child(4)::before {
+  content: '+';
+  margin-right: 2px;
+}
+
+.expense-row td:nth-child(4)::before {
+  content: '-';
+  margin-right: 2px;
+}
+
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+  
+  .table th, .table td {
+    padding: 12px 10px;
+  }
+}
