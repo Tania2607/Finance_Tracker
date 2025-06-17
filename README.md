@@ -66,6 +66,30 @@ npm install
 - Frontend: `npm start` (runs on port 3000)
 - Backend: `npm run dev` (runs on port 4000)
 
+ # Or
+
+1. Clone the repository
+```bash
+git clone <repository-url>
+```
+2.Split the terminal
+
+3.Locate and install both frontend and Backend Directories
+```bash
+cd backend
+npm install
+```
+```bash
+cd frontend
+npm install
+```
+
+4. Start the development servers
+- Frontend: `npm start` (runs on port 3000)
+- Backend: `npm run dev` (runs on port 4000)
+
+  
+
 ## Usage
 
 1. Register or Login to your account
