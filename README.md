@@ -9,7 +9,6 @@ A comprehensive MERN-based income and expense tracking application with advanced
 - Transaction History with Categories
 - Profile Management
 - Interactive Charts and Reports
-- PDF Report Generation
 - Email Integration
 - Responsive Design
 
